@@ -1,0 +1,11 @@
+<suite name="Parallel Suite" parallel="tests" thread-count="2">
+    <test name="Reda">
+
+        <classes>
+            <class name="SignUP"/>
+            <class name="Proudect"/>
+            <class name="Cart"/>
+        </classes>
+    </test>
+
+</suite>

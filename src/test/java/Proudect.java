@@ -20,6 +20,7 @@ public class Proudect extends BaseTest{
         driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Bahrain\"));")).click();
         driver.findElement(By.id("com.androidsample.generalstore:id/nameField")).sendKeys("Omnia");
         driver.hideKeyboard();
+        driver.findElement(By.id("com.androidsample.generalstore:id/radioFemale")).click();
         driver.findElement(By.id("com.androidsample.generalstore:id/btnLetsShop")).click();
         //Product page
         driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Jordan 6 Rings\"));")).click();

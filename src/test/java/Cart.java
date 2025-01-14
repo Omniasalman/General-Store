@@ -15,6 +15,7 @@ public class Cart extends BaseTest{
         driver.findElement(By.id("android:id/text1")).click();
         driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Bahrain\"));")).click();
         driver.findElement(By.id("com.androidsample.generalstore:id/nameField")).sendKeys("Omnia");
+        driver.findElement(By.id("com.androidsample.generalstore:id/radioFemale")).click();
         driver.hideKeyboard();
         driver.findElement(By.id("com.androidsample.generalstore:id/btnLetsShop")).click();
 

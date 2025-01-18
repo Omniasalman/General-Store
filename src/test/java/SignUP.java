@@ -23,7 +23,6 @@ public class SignUP extends BaseTest {
         driver.findElement(By.id("com.androidsample.generalstore:id/btnLetsShop")).click();
         Thread.sleep(3000);
 
-        //hyper aap that allow to connect to the browser
-        //so you cant user driver anymore
+
     }
 }

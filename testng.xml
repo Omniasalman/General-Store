@@ -5,6 +5,7 @@
             <class name="SignUP"/>
             <class name="Proudect"/>
             <class name="Cart"/>
+            <class name="Hypred"/>
         </classes>
     </test>
 
